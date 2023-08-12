@@ -13,8 +13,8 @@ Candidate techniques utilized:
 2. Spelling Correction Techniques -> Levenshtein Edit Distance, N-Gram Probability and Phonetic Algorithm
 
 Primary python libraries utilized:
-"nltk" -> Contained most of the packages and tasks needed to pre-process the text corpus, including tokenization, spelling correction and generating bigram models.
-"eng_to_ipa" ->  Maps and converts English text into International Phonetic Alphabet (IPA) symbols, which represent individual sounds (phonetics) of a spoken language instead of the written representation of the word. 
+1. "nltk" -> Contained most of the packages and tasks needed to pre-process the text corpus, including tokenization, spelling correction and generating bigram models.
+2. "eng_to_ipa" ->  Maps and converts English text into International Phonetic Alphabet (IPA) symbols, which represent individual sounds (phonetics) of a spoken language instead of the written representation of the word. 
 
 
 Overall design architecture of the ASC system, outlining the entire process flow of the system in sequence.
@@ -28,4 +28,13 @@ ASC system’s GUI design, developed using the Tkinter python library.
 To conclude, the ASC system developed in this project had successfully met all its design requirements, particularly in detecting and correcting non- and real-word errors in the astrological-text domain. I would also like to express my gratitude towards my wonderful groupmates Lim Chun Cheak and Wong Zheng Qie for making this project successful. Without their dedication and hardwork, this system may not happen.
 
 
+***Note: Below is repository legend for easier naviagation***
+
 Repository Legend:
+1. Corpus folder -> Contains Astrological book (pdf) used as the corpus for the system
+2. NLP ASC.ipynb -> Python codes for developing ASC system and generating GUI
+3. NLP_Corpus cleaning and Dictionary Generation.ipynb -> Python codes for corpus pre-processing & dictionary generation
+4. bigram_prob_dict_final.pickle -> Bigram model to store bigram probabilities
+5. unigram_ipa.pickle -> IPA model to store the phonetic sound of words in the corpus
+6. unigrams_counter_final.pickle -> Counter objects for unigram and bigram that stores the frequency of unigram and bigram in the corpus
+7. unique_unigram_list.pickle -> Unigram model to store unique words in the corpus

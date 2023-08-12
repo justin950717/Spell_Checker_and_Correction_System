@@ -1,18 +1,18 @@
 # Automatic Spelling Correction (ASC) System
 ## Masters in DSBA NLP Assignment 
 
-Groups members:
+**Groups members:**
 - Wong Zheng Qie
 - Lim Chun Cheak
 - Justin Ng Zheng Xin
 
 This is a Natural Language Processing (NLP) group project that aims to develop an Automatic Spelling Correction (ASC) system for detecting and correcting non-word and real-word errors, based on Astrological-text domain. The detection of non- and real-word errors will be differentiated using different colour highlights (red = non-word error; yellow = real-word error), followed by generating a list of suitable candidate replacement words based on their likelihood ranking. Prior to that, an Astrological book was scrapped for its text, which served as the corpus for the ASC system.
 
-Candidate techniques utilized:
+**Candidate techniques utilized:**
 1. Spell Check Techniques -> Dictionary Lookup and N-Gram Probability
 2. Spelling Correction Techniques -> Levenshtein Edit Distance, N-Gram Probability and Phonetic Algorithm
 
-Primary python libraries utilized:
+**Primary python libraries utilized:**
 1. "nltk" -> Contained most of the packages and tasks needed to pre-process the text corpus, including tokenization, spelling correction and generating bigram models.
 2. "eng_to_ipa" ->  Maps and converts English text into International Phonetic Alphabet (IPA) symbols, which represent individual sounds (phonetics) of a spoken language instead of the written representation of the word. 
 

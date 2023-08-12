@@ -25,7 +25,7 @@ ASC system’s GUI design, developed using the Tkinter python library.
 ![image](https://github.com/justin950717/Spell_Checker_and_Correction_System/assets/95216403/6c036054-8826-4d56-a315-0b69ee3e13b4)
 
 
-To conclude, the ASC system developed in this project had successfully met all its design requirements, particularly in detecting and correcting non- and real-word errors in the astrological-text domain. I would also like to express my gratitude towards my wonderful groupmates Lim Chun Cheak and Wong Zheng Qie for making this project successful. Without their dedication and hardwork, this system may not happen.
+To conclude, the ASC system developed in this project had successfully met all its design requirements, particularly in detecting and correcting non- and real-word errors in the astrological-text domain. I would also like to express my gratitude towards my wonderful groupmates Lim Chun Cheak and Wong Zheng Qie for their dedication and hardwork in making this project successful.
 
 
 ***Note: Below is repository legend for easier naviagation***
